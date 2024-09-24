@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Produtos</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 7px;
+            text-align: left;
+        }
+
+        img {
+            width: 70px;
+            height: auto;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        dl {
+            margin-top: 0;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        .product-icon {
+            display: block;
+            width: 20px;
+            height: 20px;
+            background-color: black;
+            border-radius: 50%;
+            margin: auto;
+        }
+
+        .product-icon-empty {
+            display: block;
+            width: 20px;
+            height: 20px;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Catálogo de Produtos</h1>
+
+    <h2>Tabela</h2>
+    <table>
+        <tr>
+            <th>Selecionar</th>
+            <th>Foto</th>
+            <th>Código</th>
+            <th>Descrição</th>
+            <th>Qtde em estoque</th>
+            <th>Valor Unitário</th>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td><img src="./Mouse Laser com fio Dell.avif" alt="Mouse Laser com fio Dell"></td>
+            <td>1</td>
+            <td>Mouse Laser com fio Dell</td>
+            <td>5</td>
+            <td>R$ 179,00</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td><img src="./Mouse Bluetooth Dell.webp" alt="Mouse Bluetooth Dell"></td>
+            <td>2</td>
+            <td>Mouse Bluetooth Dell</td>
+            <td>6</td>
+            <td>R$ 338,00</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" checked></td> 
+            <td><img src="./Mouse óptico usb.jpg" alt="Mouse óptico usb preto 100"></td>
+            <td>3</td>
+            <td>Mouse óptico usb preto 100</td>
+            <td>3</td>
+            <td>R$ 48,30</td>
+        </tr>
+    </table>
+
+    <h2>Descrição</h2>
+
+    <h3>Características do Produto</h3>
+    <label>Especificações</label>
+    <ul>
+        <li>Sensor óptico preciso com 1.600 DPI permite que você trabalhe na maioria das superfícies</li>
+        <li>Configuração USB rápida e fácil com cabo de 1,5m</li>
+        <li>Design ambidestro, produzido para caber de forma natural e perfeita na palma da sua mão</li>
+        <li>Três botões integrados</li>
+        <li>Ampla compatibilidade: Windows e Mac</li>
+    </ul>
+
+    <h3>Avaliação do produto</h3>
+    <dl>
+        <dt>José Aparecido</dt>
+    </dl>
+
+</body>
+</html>
